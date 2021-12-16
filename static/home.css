@@ -1,0 +1,119 @@
+.text{
+    font-family: 'Staatliches', cursive;
+    color: #000000;
+    text-align: right;
+    line-height: 0;
+}
+.text p{
+    margin: 0;
+    line-height:1;
+    font-size: 3rem;
+}
+
+.text p + p{
+    font-family: Teko, sans-serif;
+    font-size: 2rem;
+}
+
+
+/**** BOOTSTRAP NAVBAR ****/
+
+body .navbar .hamburguer-button{
+    width: 5rem;
+    background: none;
+    margin-left: 5rem;
+    border: none;
+}
+
+body .navbar .hamburguer-button .hamburguer{
+    width: 100%;    
+}
+
+body .navbar {
+    padding: 0;
+}
+
+body .wrapper{
+    position: absolute;
+    width: 100vw;
+    padding: 0;
+}
+
+body > .wrapper .navbar-brand{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black;     */
+}
+
+body > .wrapper img.control{
+    /* background: purple; */
+    margin-left: 2rem;
+    width: 9rem;   
+    padding: 0;
+}
+
+body .logo {
+    display: flex;
+    align-items:center;
+}
+
+@media only screen and (min-width: 991px) {
+    .logo {
+        position: relative;
+        top:0;
+        left:50%;
+        transform: translate(-50%)
+    }
+    body .list-group .list-item .item-content a{
+        position: relative;
+        left: 0rem;
+    }
+}
+
+/* LINKS DA NAVBAR */
+
+.nav-link{
+    font-size: 1.6rem;
+}
+
+/* CONTENT */
+
+body .content .list-group {
+    list-style-type:none;
+    display:grid;
+    grid-auto-rows: 1fr;
+    /* grid-row-gap: 2px; */
+}
+
+body .list-group .list-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+body .list-group .list-item .item-content{
+    /* padding: 0.3rem; */
+    width: 100%;
+    height:12rem;
+    text-align: center;
+    font-size: 6.98rem;
+    display:flex;
+    align-content: center;
+    justify-content: center;    
+    /* border: 1px solid red; */
+}
+
+body .list-group .list-item img{
+    /* border: 2px solid black; */
+    width: 7rem;
+    align-content:left;
+    margin-right: 4rem;
+}
+body .list-group .list-item .blank{
+    margin-left: 4rem;
+}
+
+/* body .list-group .list-item .item-content{
+    position: relative;
+        left:-11rem;
+} */
