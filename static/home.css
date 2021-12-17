@@ -21,7 +21,8 @@
 body .navbar .hamburguer-button{
     width: 5rem;
     background: none;
-    margin-left: 5rem;
+    margin-left: 2.5rem;
+    padding: 0.25rem;
     border: none;
 }
 
@@ -43,10 +44,10 @@ body > .wrapper .navbar-brand{
     margin: 0;
     padding: 0;
     /* border: 2px solid black;     */
+
 }
 
 body > .wrapper img.control{
-    /* background: purple; */
     margin-left: 2rem;
     width: 9rem;   
     padding: 0;
