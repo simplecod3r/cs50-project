@@ -84,6 +84,11 @@ body .logo {
 
 /* CONTENT */
 
+body > .content {
+    background: #EFEFEF;
+    border-bottom: 1px solid black;
+}
+
 body .content .list-group {
     list-style-type:none;
     display:grid;

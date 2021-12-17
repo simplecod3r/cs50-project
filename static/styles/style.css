@@ -123,3 +123,14 @@
     color: #989898;
     text-decoration: line-through;
 }
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.28rem;
+    text-align: center;
+    display: block;
+}

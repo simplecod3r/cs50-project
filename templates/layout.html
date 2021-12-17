@@ -73,5 +73,16 @@
       {% block main %}{% endblock %}
     </div>
     
+    <footer class="footer">
+      <p>CONTACT ME</p>
+      <button>
+        <img src="{{ url_for('static', filename='assets/linkedin.svg')}}" alt="">
+      </button>
+      <button>
+        <img src="{{url_for('static', filename='assets/gmail.svg')}}" alt="">
+      </button>
+      <p>MADE USING STEAM WEB API</p>
+    </footer>
+    
   </body>
 </html>

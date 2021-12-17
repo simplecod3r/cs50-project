@@ -14,10 +14,9 @@ html{
 }
 
 body{
-    display: flex;
+    /* display: flex; */
     height: 100vh; 
-    background: var(--background);
-    padding-top: 7.6rem;
+    /* background: var(--background); */
 }
 
 body{
@@ -26,9 +25,11 @@ body{
     /* font-family: 'Open Sans', sans-serif; */
 }
 
-body .content{
+body > .content{
     /* margin: auto; */
     width: 100%;
+    padding-top: 7.6rem;
+
     /* display:grid; */
 }
 
