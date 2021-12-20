@@ -87,44 +87,35 @@ body .logo {
 body > .content {
     background: #EFEFEF;
     border-bottom: 1px solid black;
+    height: 87vh;
 }
 
-body .content .list-group {
-    list-style-type:none;
-    display:grid;
-    grid-auto-rows: 1fr;
-    /* grid-row-gap: 2px; */
-}
+/* FOOTER */
 
-body .list-group .list-item{
-    display: flex;
-    align-items: center;
-    border: 1px solid black;
-}
-
-body .list-group .list-item .item-content{
-    /* padding: 0.3rem; */
+.footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    height:12rem;
+    height: 13vh;
     text-align: center;
-    font-size: 6.98rem;
-    display:flex;
-    align-content: center;
-    justify-content: center;    
-    /* border: 1px solid red; */
+    display: block;
+    padding: 2rem;
 }
 
-body .list-group .list-item img{
-    /* border: 2px solid black; */
-    width: 7rem;
-    align-content:left;
-    margin-right: 4rem;
-}
-body .list-group .list-item .blank{
-    margin-left: 4rem;
+.footer img {
+    width: 3rem;
+    margin: auto 1rem ;
 }
 
-/* body .list-group .list-item .item-content{
-    position: relative;
-        left:-11rem;
-} */
+.footer p {
+    font-family: 'Staatliches', cursive;
+    margin: 0;
+    font-size: 1rem;
+    color: #8F8F8F;
+    line-height: 3rem;
+}
+
+.footer p:nth-child(1){
+    font-size: 2.5rem;
+    color: black;
+}
