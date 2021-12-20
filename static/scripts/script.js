@@ -15,14 +15,14 @@ document.addEventListener('DOMContentLoaded', function(){
             let console_ = buttons[i].innerHTML;
             console.log(console_);
 
-            if (console_ === "PS4"){
-                window.location.assign("/ps4")
-            }
-            else if (console_ === "XBOX"){
-                window.location.assign("/xbox")
-            }
-            else if (console_ === "SWITCH"){
-                window.location.assign("/switch")
+            // if (console_ === "PS4"){
+            //     window.location.assign("/ps4")
+            // }
+            // else if (console_ === "XBOX"){
+            //     window.location.assign("/xbox")
+            // }
+            // else if (console_ === "SWITCH"){
+            //     window.location.assign("/switch")
             }
             else if (console_ === "STEAM"){
                 window.location.assign("/steam")

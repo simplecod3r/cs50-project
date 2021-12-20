@@ -5,36 +5,45 @@
 {% endblock %}
 
 {% block main %}
- <ul class="list-group">
-            <li class="list-item">
-              <div class="item-content">
-              <img src="{{ url_for('static', filename='assets/playstation-icon.svg') }}" alt="Playstation games">
-              <button class="text console button_">PS4</button>
-              <div class="blank"></div>
-              </div>
+<div class="plataform-offers">
+    <div class="">
+        <p>SUPER OFERTAS</p>
+        <p>Steam</p>
+    </div>
+</div>
+
+<div class="carousel">
+    <button class="carousel__button carousel__button--left is-hidden">
+        <img src="{{ url_for('static', filename='assets/left.svg')}}" alt="">
+    </button>
+
+    <div class="carousel__track-container">
+        <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+                <img src="{{ url_for('static', filename='assets/slide-1.jpeg')}}" alt="" class="carousel__image">
             </li>
-            <li class="list-item">
-              <div class="item-content">
-                <img src="{{ url_for('static', filename='assets/xbox-icon.svg')}}" alt="Xbox games">
-                <button class="text console button_">XBOX</button>
-              </div>
+            <li class="carousel__slide">
+                <img src="{{ url_for('static', filename='assets/slide-2.jpeg')}}" alt="" class="carousel__image">
             </li>
-            <li class="list-item">
-              <div class="item-content">
-                <img src="{{ url_for('static', filename='assets/switch-icon.svg')}}" alt="Switch games">
-                <button class="text console button_">SWITCH</button>
-              </div>
-            </li>
-            <li class="list-item">
-              <div class="item-content">
-                <img src="{{ url_for('static', filename='assets/steam-icon.svg')}}" alt="Steam games">
-                <button class="text console button_">STEAM</button>
-              </div>
-            </li>
-            <li class="list-item">
-              <div class="item-content">
-                <button class="text console button_">CONTACT US</button>
-              </div>
+            <li class="carousel__slide">
+                <img src="{{ url_for('static', filename='assets/slide-3.jpeg')}}" alt="" class="carousel__image">
             </li>
         </ul>
+    </div>
+
+    <button class="carousel__button carousel__button--right">
+        <img src="{{ url_for('static', filename='assets/right.svg')}}" alt="">
+    </button>
+
+    <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+    </div>
+</div>
+
+<div class="game__info">
+    <p>title</p>
+    <p><span>previusprice</span> price</p>
+</div>
 {% endblock %}
