@@ -1,0 +1,8 @@
+Hello world ! 
+
+I'm Rodrigo, and I'm from Salvador Bahia, Brazil. My project is called OBaratão Games, and it is meant to be a catalogue of the best offers and sales on steam.
+Right now, I have managed to do this carousel of images with reponsive mobile-first design. The app is also downloading data from steam WEB API, but the data cleaning and auto updates of the offers are still a work in progress.
+
+I made it using HTML, CSS and vanilla JavaScript for the front-end, and i'm developing the back-end on flask with python.
+
+I'd like to thank Harvard's Professor David Malan and all its staff, for the great class of CS50. I learned a lot, thank you, this was Baratão games.

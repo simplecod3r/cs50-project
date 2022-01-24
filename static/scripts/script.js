@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function(){
             // }
             // else if (console_ === "SWITCH"){
             //     window.location.assign("/switch")
-            }
-            else if (console_ === "STEAM"){
+            // }
+            if (console_ === "STEAM"){
                 window.location.assign("/steam")
             }
         });
